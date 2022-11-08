@@ -1,0 +1,110 @@
+
+@import url(../styles/menus.css);
+
+.wrapper{
+    background-color: skyblue;
+    margin: 0 auto; 
+    padding: 60px 40px; 
+    width: 1200px;
+    outline: 0px;
+   }
+
+div{outline: 1px solid black;}
+
+.t_cell_1{
+    padding: 0;
+    display: flex;
+}
+.t_cell_1:after{
+    content: "$";
+    color: lightseagreen;
+    clear: both;
+    display: block;
+}
+
+.in_t_1{
+    width: 400px;
+    background: orange;
+}
+.in_t_1:after{
+    content: "$";
+    color: lightseagreen;
+    clear: both;
+    display: block;
+}
+
+span{
+    color: blueviolet;
+    font-size: 35px;
+}
+.in_t_2{
+    width: 600px;
+    background: palegoldenrod;
+    vertical-align: middle;
+
+}
+.in_t_2:after{
+    content: "$";
+    color: lightseagreen;
+    clear: both;
+    display: block;
+}
+
+.in_t_3{
+    width: 600px;
+    background: plum;
+
+}
+.in_t_3:after{
+    content: "$";
+    color: lightseagreen;
+    clear: both;
+    display: block;
+}
+.in_in_t_3{
+    width: 600px; 
+    display: flex;
+}
+
+.in_in_in_t_3{
+    width: 300px;
+    background: plum;
+
+}
+.in_in_in_t_3:after{
+    content: "$";
+    color: lightseagreen;
+    clear: both;
+    display: block;
+}
+.in_t_4{
+    width: 600px;
+    background: palevioletred;
+    
+}
+.in_t_4:after{
+    content: "$";
+    color: lightseagreen;
+    clear: both;
+    display: block;
+}
+
+.in_in_t_4{
+    width: 600px;
+}
+.in_in_in_t_4{
+    display: flex;
+}
+
+.in_in_in_in_t_4{
+    width: 300px;
+    outline: 0px;
+
+
+}
+.in_in_in_in_t_4:after{
+    content: "$";
+    color: lightseagreen;
+    clear: both;
+    display: block;
+}

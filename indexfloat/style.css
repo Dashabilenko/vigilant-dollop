@@ -1,0 +1,35 @@
+
+@import url(../styles/menus.css);
+@import url(../styles/reset.css);
+
+ul{
+top: 50px;
+    text-align: center;
+    font-size: 0;
+    z-index: 10;
+    position: relative;
+    
+}
+ul li{
+    background: palegoldenrod;
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+}
+ul li:hover{
+    background: powderblue;
+}
+ul li+li{
+    border-left: rgb(255, 238, 218) 2px dotted;
+}
+body{
+    background: powderblue;
+}
+ul li a{
+    text-decoration: none;
+    color:green;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    display:block;
+    top:100%;
+}

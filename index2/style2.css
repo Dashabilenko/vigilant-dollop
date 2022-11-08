@@ -1,0 +1,87 @@
+
+@import url(../styles/menus.css);
+
+.wrapper{
+    background-color: skyblue;
+    margin: 0 auto; 
+    padding: 60px 40px; 
+    width: 1200px;
+    outline: 0px;
+
+   }
+
+div{outline: 1px solid black;}
+
+.t_cell_1{
+    padding: 0;
+    font-size: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+.in_t_1{
+    width: 400px;
+    background: orange;
+    display: inline-block;
+    font-size: 20px;
+}
+.in_t_2{
+    width: 600px;
+    background: palegoldenrod;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.in_t_3l{
+    width: 400px;
+    background: plum;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+ 
+}
+.in_t_3r{
+    width: 800px;
+    background: plum;
+    display: inline-block;
+    font-size: 20px;
+}
+ 
+.in_in_t_3{
+    width: 800px; 
+    font-size: 20px;
+    background: plum;
+ 
+}
+.in_in_in_t_3{
+    width: 400px;
+    background: palegreen;
+    display:table-cell;
+    font-size: 20px;
+}
+.in_t_4l{
+    width: 800px;
+    background: palevioletred;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+
+}
+.in_t_4r{
+    width: 400px;
+    font-size: 20px;
+    background: palevioletred;
+    display: inline-block;
+}
+.in_in_t_4{
+    width: 800px;
+    font-size: 20px;
+
+}
+.in_in_in_t_4{
+    width: 400px;
+    display: table-cell;
+    font-size: 20px;
+    background: palegreen;
+}
